@@ -1,1 +1,1 @@
-# Hacker-rank
+# Hacker-rank sql soln
