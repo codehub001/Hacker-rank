@@ -6,7 +6,7 @@ SELECT
 FROM  
      product
 WHERE
-     product.id NOT IN (SELECT product_id FROM invoice_item);
+     product.id NOT IN ( SELECT product_id FROM invoice_item);
 
 
 
