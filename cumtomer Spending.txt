@@ -1,4 +1,4 @@
------ cumtomer Spending
+----- cumtomer Spending problem
 
 SELECT
      c.customer_name, ROUND(SUM(i.total_price), 6)
