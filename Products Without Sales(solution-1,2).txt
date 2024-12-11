@@ -12,7 +12,7 @@ WHERE
 
 ----- Products Without Sales(solution_2)
 
-SELECT 
+SELECT  
      product.sku, product.product_name
 FROM 
      product
