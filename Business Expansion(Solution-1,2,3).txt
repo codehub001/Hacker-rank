@@ -7,7 +7,7 @@ SELECT
      user_account.last_name,
      contact.customer_id,
      customer.customer_name,
-     count(*) as numbers
+     count(*) as numbers 
 FROM
      contact as contact
 JOIN 
