@@ -1,7 +1,7 @@
 ---- Products Sales Per City(Solution_1)
 
 SELECT invoice.city_name,
-product.product_name,
+product.product_name, 
 invoice_item.line_total_price
 FROM invoice_item as invoice_item
 JOIN product as product
