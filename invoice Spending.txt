@@ -2,7 +2,7 @@
 
 
 SELECT 
-      cu.customer_name, AVG(i.total_price)
+      cu.customer_name, AVG(i.total_price) 
 FROM 
       customer cu
 JOIN 
