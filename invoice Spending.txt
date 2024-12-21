@@ -5,7 +5,7 @@ SELECT
       cu.customer_name, AVG(i.total_price) 
 FROM 
       customer cu
-JOIN 
+JOIN  
       invoice i ON cu.id = i.customer_id 
 GROUP BY 
       cu.customer_name
